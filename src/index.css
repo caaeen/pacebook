@@ -1,0 +1,53 @@
+@import "tailwindcss";
+*{
+  box-sizing: border-box;
+
+  
+}
+
+.user-profile{
+  @apply relative ;
+}
+.tool-container li{
+  @apply flex gap-2 items-center text-white font-light text-sm  p-2 rounded-md hover:bg-[#333334] ease-in duration-100 cursor-pointer;
+}
+
+
+
+::-webkit-scrollbar {
+  width: 8px; 
+  height: 10px; 
+}
+
+
+::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 10px;
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: gray; 
+  opacity: 0.8;
+  border-radius: 10px;
+}
+
+
+
+/*ambot pota*/
+.user-profile::after {
+  content: "v";
+  position: absolute;
+  width: 15px;
+  height: 15px;
+ 
+  border: 2px solid;
+  z-index: 2;
+  bottom: -5px;
+  right: 0;
+  color: white;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+
+}
