@@ -2,7 +2,7 @@ import React from 'react'
 
 const Tools = () => {
   return (
-    <div className='min-w-[350px] max-w-[300px] overflow-hidden hover:overflow-y-auto  h-full fixed'>
+    <div className='min-w-[350px] max-w-[300px] overflow-hidden hover:overflow-y-auto duration-300 delay-300 h-full fixed'>
         <ul className='tool-container flex flex-col gap-0.5 px-2 py-4 '>
             <li>
                 <img src="https://scontent.fcgy1-1.fna.fbcdn.net/v/t39.30808-6/483588698_1312536043129242_8302059636021443159_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeFNTmgemJci5-f4X2oeLcSqxrv1tAqgdaLGu_W0CqB1opqLtNuBDqX8XPegXjkLbmOFQp_rK6ZXzib_gvGqrfub&_nc_ohc=7c6xhaBNjfIQ7kNvwHlFecw&_nc_oc=AdkIzYQXefaAf0zgq3Gn2CJ2y63LP6i3EhpFrrxmerzQdVVwfVCgu0uDgXQ_cBt8WFw&_nc_zt=23&_nc_ht=scontent.fcgy1-1.fna&_nc_gid=AqcdDmYuuEl8Fe97f0YxcQ&oh=00_AfJ26Ati-__siWV5bOvXyDzCwB-wq1Eam9sjmwzyJ-ZXDA&oe=682FD25B" className='w-[36px] h-[36px] rounded-full object-cover overflow-hidden' alt="" />

@@ -32,9 +32,9 @@ const Feed = () => {
         {/* Story Cards */}
 
         <div className='w-full h-[200px] flex gap-2 my-4 '>
-            <div className='cursor-pointer relative w-[113px] h-full pb-1.5 bg-[#252728] rounded-xl flex justify-center items-end  overflow-hidden'>
-                <img className="opacity-80 absolute top-0 left-0 h-[75%] hover:scale-105 ease duration-200 object-cover" src="https://scontent.fcgy1-1.fna.fbcdn.net/v/t39.30808-6/483588698_1312536043129242_8302059636021443159_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeFNTmgemJci5-f4X2oeLcSqxrv1tAqgdaLGu_W0CqB1opqLtNuBDqX8XPegXjkLbmOFQp_rK6ZXzib_gvGqrfub&_nc_ohc=7c6xhaBNjfIQ7kNvwHlFecw&_nc_oc=AdkIzYQXefaAf0zgq3Gn2CJ2y63LP6i3EhpFrrxmerzQdVVwfVCgu0uDgXQ_cBt8WFw&_nc_zt=23&_nc_ht=scontent.fcgy1-1.fna&_nc_gid=AqcdDmYuuEl8Fe97f0YxcQ&oh=00_AfJ26Ati-__siWV5bOvXyDzCwB-wq1Eam9sjmwzyJ-ZXDA&oe=682FD25B"  alt="" />
-                <div className='relative text-white font-medium flex flex-col items-center h-[44px]  justify-end gap-2.5 z-10 bg-[#252728] w-full'>
+            <div className='group cursor-pointer relative w-[113px] h-full pb-1.5 bg-[#252728] rounded-xl flex justify-center items-end  overflow-hidden'>
+                <img className="opacity-80 absolute top-0 left-0 h-[75%] group-hover:scale-105 ease duration-200 object-cover" src="https://scontent.fcgy1-1.fna.fbcdn.net/v/t39.30808-6/483588698_1312536043129242_8302059636021443159_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeFNTmgemJci5-f4X2oeLcSqxrv1tAqgdaLGu_W0CqB1opqLtNuBDqX8XPegXjkLbmOFQp_rK6ZXzib_gvGqrfub&_nc_ohc=7c6xhaBNjfIQ7kNvwHlFecw&_nc_oc=AdkIzYQXefaAf0zgq3Gn2CJ2y63LP6i3EhpFrrxmerzQdVVwfVCgu0uDgXQ_cBt8WFw&_nc_zt=23&_nc_ht=scontent.fcgy1-1.fna&_nc_gid=AqcdDmYuuEl8Fe97f0YxcQ&oh=00_AfJ26Ati-__siWV5bOvXyDzCwB-wq1Eam9sjmwzyJ-ZXDA&oe=682FD25B"  alt="" />
+                <div className=' relative text-white font-medium flex flex-col items-center h-[44px]  justify-end gap-2.5 z-10 bg-[#252728] w-full'>
                     <i className="fa-solid fa-plus p-2 px-2.5 border-[#252728] border-4 -top-5 absolute z-10 bg-[#075CE5] rounded-full"></i>
                     <small>Create Story</small>
                 </div>
