@@ -6,13 +6,13 @@ const Header = () => {
         <div className="header z-20 fixed top-0 left-0 right-0 bg-[#252728] h-[56px] flex items-center justify-between px-4">
             <div className='flex items-center gap-2 w-full'>
                 <img src="https://www.facebook.com/images/fb_icon_325x325.png" alt="Facebook Logo" className='w-[37px] h-[37px]'/>
-                <div className='flex items-center gap-2 text-gray-400 text-[14px] bg-[#333334] rounded-full p-2.5 px-4'>
-                   <i className="fa-solid fa-magnifying-glass "></i>
-                   <input type="text" placeholder='Search Facebook' className='outline-none text-gray-100'/>
+                <div className='flex items-center gap-2 cursor-pointer text-gray-400 text-[14px] bg-[#333334] rounded-full  sm:p-2.5 p-3 '>
+                   <i className="fa-solid fa-magnifying-glass  "></i>
+                   <input type="text" placeholder='Search Facebook' className='sm:block hidden outline-none text-gray-100'/>
                 </div>
             </div>
 
-            <div className='w-full justify-center flex'>
+            <div className='w-full justify-center hidden lg:flex'>
                 <ul className='flex items-center gap-5 text-gray-400 '>
                     <li className='py-1'>
                         <div to='/' className='w-[100px] cursor-pointer py-1 flex items-center justify-center hover:bg-[#333334] rounded-[10px] ease duration-200'>
